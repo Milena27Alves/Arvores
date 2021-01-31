@@ -53,7 +53,7 @@ class arvore:
          if no == None:
              return 0
          else:
-             return self.quantidade(no.f_esq) + self.quantidade(no.f_dir) +1
+             return self.quantidade_nos(no.f_esq) + self.quantidade_nos(no.f_dir) +1
          
 
 
