@@ -49,7 +49,7 @@ class arvore:
          self.buscar(no.f_esq, v)
          self.buscar(no.f_dir, v)
 
-     def quantidade(self, no):
+     def quantidade_nos(self, no):
          if no == None:
              return 0
          else:
